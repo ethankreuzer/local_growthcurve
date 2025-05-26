@@ -1,0 +1,12 @@
+row, column: sample position in plate	
+Well, Plate, Concentration: Unique identifiers for each sample (each plate has only one concentration)
+ProductName: Coloquial name or IRIC ID
+t_0, t_2.08, t_4.16, t_6.24, t_8.32, t_10.4, t_12.48: OD values at each time point, after substracting starting OD and dividing by each plate Inter quartile mean
+MIC: Calculated from this experiment, either DMSO (neg control), Cipro or Fosfo (pos control), Inactive or MIC value
+Smiles	
+endOD, maxOD, maxOD.t, expAcc, lag, statAcc, stat, maxR, maxR.t, minR, minR.t: Features extracted from LOESS-dx from the growth curves 
+Function: MoA, broad cellular target
+Structure_class_1: First level of structure classification
+Structure_class_2: Second level of structure classification
+Target.1: Specific cellular target
+
